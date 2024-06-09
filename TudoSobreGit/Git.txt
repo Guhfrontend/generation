@@ -1,0 +1,22 @@
+
+git init - cria o repositorio local
+
+git remote add origin "link do github"
+
+git add .
+
+git commit -m "nome do commit"
+
+git push origin main
+
+agora estamos na branch nova
+
+git checkout -b dev (branch nova)
+
+git log para ver o historico 
+
+git merge para copiar a branch
+
+git clone URL_DO_GITHUB
+
+
