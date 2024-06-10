@@ -1,22 +1,13 @@
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class exercicioCollectionList2 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        ArrayList<Integer> list = new ArrayList<>();
-
-        list.add(2);
-        list.add(5);
-        list.add(1);
-        list.add(3);
-        list.add(4);
-        list.add(9);
-        list.add(7);
-        list.add(8);
-        list.add(10);
-        list.add(6);
+        ArrayList<Integer> list = new ArrayList<>(Arrays.asList(2,5,1,3,4,9,7,8,10,6));
 
         System.out.print("Digite o número que você deseja encontrar:");
         Integer num1 = Integer.valueOf(scan.nextInt());
