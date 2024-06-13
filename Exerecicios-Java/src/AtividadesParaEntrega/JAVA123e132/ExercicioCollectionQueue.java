@@ -40,10 +40,10 @@ public class ExercicioCollectionQueue {
                     System.out.println("\nO cliente foi chamado: " + fila.peek());
                     fila.poll();
                 }
-            }else {
-                System.out.println("Programa finalizado!");
+            }else if(num1 < 0 || num1 > 3){
+                System.out.println("Código Inválido!");
             }
-
         }
+        System.out.println("Programa finalizado!");
     }
 }

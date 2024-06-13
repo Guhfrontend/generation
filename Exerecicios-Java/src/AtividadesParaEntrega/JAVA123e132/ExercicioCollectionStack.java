@@ -39,7 +39,7 @@ public class ExercicioCollectionStack {
                     System.out.println("\nUm livro foi retirado da Pilha!");
                     stack.pop();
                 }
-            }else if ( num1 < 0 || num1 > 3){
+            }else if (num1 < 0 || num1 > 3){
                 System.out.println("Código Inválido");
             }
         }
