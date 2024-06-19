@@ -1,0 +1,7 @@
+package atleta;
+
+public interface Atleta  {
+
+    public void aquecer();
+
+}
